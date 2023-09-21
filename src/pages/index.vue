@@ -1,18 +1,18 @@
 <template>
-	<div class="flex bg-slate-100 min-h-screen flex-col gap-10 justify-around">
-		<div class="pl-5">
+	<div class="flex bg-slate-100 min-h-screen flex-col gap-10 justify-between">
+		<div class="p-5">
 			<img src="../shared/assets/images/logo.png" alt="logo" class="h-20" />
 		</div>
 
-		<div class="flex h-full">
-			<div class="w-full flex justify-center itemsc">
+		<div class="flex h-full px-10 flex-wrap justify-center gap-5">
+			<div class="flex justify-center items-center">
 				<img
 					src="../shared/assets/images/impaulintech.png"
 					alt="impaulintech-image"
 					class="h-100"
 				/>
 			</div>
-			<div class="w-full flex flex-col h-full justifycenter items-start gap-10">
+			<div class="flex flex-col h-full justifycenter items-start gap-10">
 				<p class="text-[24px]">
 					Welcome to my <span class="font-medium">default</span> custom
 					Template. <br />
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<footer class="w-full flex items-center justify-center">
+		<footer class="w-full flex items-center justify-center pb-5">
 			<p>© ImPaulinTech 2022</p>
 		</footer>
 	</div>
